@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T05:39:17.935Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="C4NvB_C4kgY9hq3OJxKv" version="17.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-04-18T07:00:04.893Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="kuYTJQtY_R-71RyHI1gj" version="17.4.5" type="github" pages="21">
   <diagram id="985ZaxFpaZ_qsSHkw53R" name="Page-1">
-    <mxGraphModel dx="858" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1618,6 +1618,50 @@
         </mxCell>
         <mxCell id="bU6tKmEgzBk_qVYKG5ta-75" value="server 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="670" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4_GnRKKjQ5UfXhWmauEv" name="Page-22">
+    <mxGraphModel dx="868" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="175" y="30" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="70" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KU3EvUOOhjG4uqYdB90x-4" target="KU3EvUOOhjG4uqYdB90x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-4" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KU3EvUOOhjG4uqYdB90x-6" target="KU3EvUOOhjG4uqYdB90x-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-6" value="Playbook apache services" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-8" value="node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-9" value="index.html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-10" value="upgrade apt service&lt;br&gt;installing apache2&lt;br&gt;copy index.html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-11" value="/var/lib/jenkins/playbook.yml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-12" value="adminuser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3EvUOOhjG4uqYdB90x-13" value="upgrade, apchae2,&lt;br&gt;copy index.html" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
